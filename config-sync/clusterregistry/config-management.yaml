@@ -19,7 +19,7 @@ spec:
 kind: Cluster
 apiVersion: clusterregistry.k8s.io/v1alpha1
 metadata:
-  name: anthos-on-gcp-1
+  name: anthos-on-gcp
   labels:
     environment: dc
     location: asia-southeast1
