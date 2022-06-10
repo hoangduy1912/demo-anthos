@@ -3,4 +3,4 @@ kind: Namespace
 metadata:
   name: hello-2
   annotations:
-    configmanagement.gke.io/cluster-selector: anthos-on-eks2-zu
+    configmanagement.gke.io/cluster-selector: anthos-on-eks2-rp
