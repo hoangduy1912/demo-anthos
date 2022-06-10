@@ -1,7 +1,7 @@
 kind: Cluster
 apiVersion: clusterregistry.k8s.io/v1alpha1
 metadata:
-  name: anthos-on-eks2-rp
+  name: tuanvd-eks-attached
   labels:
     environment: dr
     location: ap-southeast-1
@@ -9,7 +9,7 @@ metadata:
 kind: ClusterSelector
 apiVersion: configmanagement.gke.io/v1
 metadata:
-  name: anthos-on-eks2-rp
+  name: tuanvd-eks-attached
 spec:
   selector:
     matchLabels:

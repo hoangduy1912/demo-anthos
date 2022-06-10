@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    configmanagement.gke.io/cluster-selector: anthos-on-eks2-rp
+    configmanagement.gke.io/cluster-selector: tuanvd-eks-attached
   name: balancereader-dr-on-aws
   namespace: boa
 spec:
